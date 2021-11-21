@@ -1,0 +1,166 @@
+* {
+    font-family: 'Roboto', arial;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/* Section one, navbar and intro */
+
+.header {
+    padding: 10px 150px 100px 200px;
+    text-decoration: none;
+    background-color: #1F2937;
+}
+
+.navbar {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.links {
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-text h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.content-text p {
+    margin-top: -30px;
+    padding-right: 40px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.content-text button {
+    font-size: 18px;
+    background-color: #3882f6;
+    width: 130px;
+    height: 30px;
+    border-radius: 10px;
+    color: #e5e7eb;
+}
+
+img {
+    width: 50%;
+}
+
+
+/* Section two, some random info */
+
+.section2 {
+    padding: 10px auto 100px auto;
+}
+
+.section2 h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-items: center;
+}
+
+.gallery-item img {
+    border: solid;
+    border-color: #3882f6;
+    border-width: thick;
+    height: 150px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.gallery-item p {
+    padding: 0px 30px 0px 30px;
+}
+
+
+/* Section 3, quote */
+
+.section3 {
+    padding: 100px 0px 100px 0px;
+    background-color: #e5e7eb;
+    font-style: italic;
+    color: #1f2937;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    width: 800px;
+}
+
+.signature {
+    align-self: flex-end;
+}
+
+
+/* Section 4, sign up */
+
+.section4 {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 20px;
+}
+
+.text {
+    margin-left: 20px;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.section4 button {
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border-color: #ffff;
+    color: #e5e7eb;
+}
+
+
+/* Section 5, some random info */
+
+footer {
+    padding: 30px;
+    color: #e5e7eb;
+    font-size: 18px;
+    text-align: center;
+    background-color: #1f2937;
+}
